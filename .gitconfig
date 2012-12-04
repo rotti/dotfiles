@@ -1,5 +1,5 @@
 [user]
-	name = basti
+	name = rotti
 	email = spmbot123@gmail.com
 [color]
 	diff = auto
@@ -16,7 +16,6 @@
         lp = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
         cp = cherry-pick
         rom = reset --hard origin/master
-        psh = push git@github.com:rotti/url.collector HEAD:refs/for/master
         lcf = diff --name-only HEAD
         dh = diff HEAD
 
